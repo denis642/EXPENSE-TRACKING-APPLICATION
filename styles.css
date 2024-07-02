@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+p{
+    color: #f4f4f4;
+}
+.home-paragraph {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+.home-background {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(90%);
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff004f;
+}
+
+section {
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form button {
+
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    background: #ff004f;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff004f;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 1px 0;
+    background: #333;
+    font-weight: 300;
+    margin-top: 70px;
+    color: #ddd;
+}
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+    
+}
+
+/* For tablets */
+@media (max-width: 1023px) and (min-width: 768px) {
+    
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    
+}
+
